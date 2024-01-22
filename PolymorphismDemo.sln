@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismDemo", "PolymorphismDemo\PolymorphismDemo.csproj", "{EEE3EBD5-6E9D-41D7-B095-AB7E60CD0569}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0BB5EABC-F728-499E-9BF1-297C912A9081} = {0BB5EABC-F728-499E-9BF1-297C912A9081}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismLibrary", "PolymorphismLibrary\PolymorphismLibrary.csproj", "{0BB5EABC-F728-499E-9BF1-297C912A9081}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEE3EBD5-6E9D-41D7-B095-AB7E60CD0569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE3EBD5-6E9D-41D7-B095-AB7E60CD0569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE3EBD5-6E9D-41D7-B095-AB7E60CD0569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE3EBD5-6E9D-41D7-B095-AB7E60CD0569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB5EABC-F728-499E-9BF1-297C912A9081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB5EABC-F728-499E-9BF1-297C912A9081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB5EABC-F728-499E-9BF1-297C912A9081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB5EABC-F728-499E-9BF1-297C912A9081}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66D2CFCC-9802-42F7-ADFC-1356308E2D33}
+	EndGlobalSection
+EndGlobal
