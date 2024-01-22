@@ -1,0 +1,115 @@
+Day 4:
+OOP's
+Encapsulation:
+binding fields/members in a single unit.
+variables
+-------------------------------------------
+1st way using variable
+------------------------------------------
+Constructor: constructor is a method which has the same name as that of the class.
+And a default constructor is created when a class is created.
+Types:
+1)Default
+2)Parameterised 
+3)Static
+
+
+Object: instance of a class
+Class:Default constructor(creating/constructing a object)
+Binding Data 2nd way:Properties
+
+
+
+Encapsulated in a class:
+1) variables
+2) static variables
+3) methods
+4) static methods
+5) static constructor
+6) default constructor
+7) parameterised constructor
+8) properties
+
+
+
+Product:
+prodid -int
+prodname -string
+price- double
+unitofmeasurement-string
+qtyinhand----int
+reorderlevelqty--int
+qty------int
+
+
+6 times cw----acceptdata
+6times cw---displaydata
+----------------------------------------
+Polymorphism
+
+Poly----many
+morphism----forms
+
+1)Number of parameters
+2)Type of parameters
+3) Sequence of parameters
+
+***Return type not considered***
+Many forms of a single method in a single scope means Overloading.
+					   (class)			
+
+Assignment1: Try with method overloading, also with properties.
+Select your id proof:
+Aadhar: 16 digits
+pancard: 10 chars
+driving license:10 digits
+passportno: 8 chars
+
+
+
+Assignment 2: Do the following using properties, methods and static variable.
+
+Product:
+prodid -int
+prodname -string
+price- double
+unitofmeasurement-string
+qtyinhand----int
+reorderlevelqty--int
+qty------int
+Create the above product class productid, generate productid automatically using static variable.
+Also when the qty is given the qtyinhand whcih must be a constant declared should be deducted from the QtyInhand.
+
+scenario 1:
+QtyInhand=100
+Qty=50
+QtyInhand=50
+ReorderlevelQty=50 then order it now must be displayed
+ 
+
+
+scenario 2:
+QtyInhand=100
+Qty=10
+QtyInhand=90
+
+
+
+
+
+------------------------------------------------------------
+-----------------------------------------------------------------------------
+Many forms of single method when inheritance exists between classes is OverRiding.
+
+Inheritance
+
+Used for reusability of code.
+Using inheritance helps you to call the method of the base class and make changes to them if needed.
+
+Base class can allow me overriding if the method that u want to override is declared as "virtual"
+
+Overriding means:
+1) There must be base(Parent) and Dervied(child) class
+2) The base class method signature and derived class method signature must be EXACTLY THE SAME and their method names must be same:
+   a) Hide the base class method
+   b) override-----> the base class method must be declared as "virtual".
